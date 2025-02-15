@@ -1,1 +1,8 @@
-changed
+import sqlite3
+conn=connect.sqlite3(traffic_rules.db)
+cursor=conn.cursor()
+cursor.execute(create users(name,vechicle_name,license,aadhar_copy) VALUES("madhu","scooty pept",2345,//https://))
+cursor.exceute(SELECT *FROM users)
+print(cursor.fetchall())
+conn.commit()
+conn.close()
